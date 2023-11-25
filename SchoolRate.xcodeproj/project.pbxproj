@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310997942B126DD30030F72A /* SchoolRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997932B126DD30030F72A /* SchoolRateApp.swift */; };
+		310997962B126DD30030F72A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997952B126DD30030F72A /* ContentView.swift */; };
+		310997982B126DD40030F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310997972B126DD40030F72A /* Assets.xcassets */; };
+		3109979B2B126DD40030F72A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3109979A2B126DD40030F72A /* Preview Assets.xcassets */; };
+		310997A22B126E310030F72A /* LycéeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997A12B126E310030F72A /* LycéeList.swift */; };
+		310997A42B126E390030F72A /* LycéeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997A32B126E390030F72A /* LycéeRow.swift */; };
+		310997A62B126E400030F72A /* LycéeDétail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997A52B126E400030F72A /* LycéeDétail.swift */; };
+		310997A82B126E440030F72A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997A72B126E440030F72A /* CircleImage.swift */; };
+		310997AA2B126E480030F72A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997A92B126E480030F72A /* MapView.swift */; };
+		310997AD2B126E680030F72A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997AC2B126E680030F72A /* ModelData.swift */; };
+		310997AF2B126E6D0030F72A /* Lycée.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310997AE2B126E6D0030F72A /* Lycée.swift */; };
+		310997B22B126ED30030F72A /* établissements.json in Resources */ = {isa = PBXBuildFile; fileRef = 310997B12B126ED30030F72A /* établissements.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310997902B126DD30030F72A /* SchoolRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		310997932B126DD30030F72A /* SchoolRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolRateApp.swift; sourceTree = "<group>"; };
+		310997952B126DD30030F72A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		310997972B126DD40030F72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3109979A2B126DD40030F72A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		310997A12B126E310030F72A /* LycéeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LycéeList.swift"; sourceTree = "<group>"; };
+		310997A32B126E390030F72A /* LycéeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LycéeRow.swift"; sourceTree = "<group>"; };
+		310997A52B126E400030F72A /* LycéeDétail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LycéeDétail.swift"; sourceTree = "<group>"; };
+		310997A72B126E440030F72A /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		310997A92B126E480030F72A /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		310997AC2B126E680030F72A /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		310997AE2B126E6D0030F72A /* Lycée.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lycée.swift"; sourceTree = "<group>"; };
+		310997B12B126ED30030F72A /* établissements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "établissements.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3109978D2B126DD30030F72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310997872B126DD30030F72A = {
+			isa = PBXGroup;
+			children = (
+				310997922B126DD30030F72A /* SchoolRate */,
+				310997912B126DD30030F72A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310997912B126DD30030F72A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310997902B126DD30030F72A /* SchoolRate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310997922B126DD30030F72A /* SchoolRate */ = {
+			isa = PBXGroup;
+			children = (
+				310997932B126DD30030F72A /* SchoolRateApp.swift */,
+				310997AB2B126E5E0030F72A /* View */,
+				310997972B126DD40030F72A /* Assets.xcassets */,
+				310997992B126DD40030F72A /* Preview Content */,
+			);
+			path = SchoolRate;
+			sourceTree = "<group>";
+		};
+		310997992B126DD40030F72A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3109979A2B126DD40030F72A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		310997AB2B126E5E0030F72A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				310997952B126DD30030F72A /* ContentView.swift */,
+				310997A12B126E310030F72A /* LycéeList.swift */,
+				310997A32B126E390030F72A /* LycéeRow.swift */,
+				310997A52B126E400030F72A /* LycéeDétail.swift */,
+				310997A72B126E440030F72A /* CircleImage.swift */,
+				310997A92B126E480030F72A /* MapView.swift */,
+				310997B02B126EC80030F72A /* Model */,
+				310997B32B126EDB0030F72A /* Resources */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		310997B02B126EC80030F72A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				310997AC2B126E680030F72A /* ModelData.swift */,
+				310997AE2B126E6D0030F72A /* Lycée.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		310997B32B126EDB0030F72A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				310997B12B126ED30030F72A /* établissements.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3109978F2B126DD30030F72A /* SchoolRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3109979E2B126DD40030F72A /* Build configuration list for PBXNativeTarget "SchoolRate" */;
+			buildPhases = (
+				3109978C2B126DD30030F72A /* Sources */,
+				3109978D2B126DD30030F72A /* Frameworks */,
+				3109978E2B126DD30030F72A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolRate;
+			productName = SchoolRate;
+			productReference = 310997902B126DD30030F72A /* SchoolRate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310997882B126DD30030F72A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3109978F2B126DD30030F72A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3109978B2B126DD30030F72A /* Build configuration list for PBXProject "SchoolRate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310997872B126DD30030F72A;
+			productRefGroup = 310997912B126DD30030F72A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3109978F2B126DD30030F72A /* SchoolRate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3109978E2B126DD30030F72A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3109979B2B126DD40030F72A /* Preview Assets.xcassets in Resources */,
+				310997982B126DD40030F72A /* Assets.xcassets in Resources */,
+				310997B22B126ED30030F72A /* établissements.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3109978C2B126DD30030F72A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310997AA2B126E480030F72A /* MapView.swift in Sources */,
+				310997AF2B126E6D0030F72A /* Lycée.swift in Sources */,
+				310997A22B126E310030F72A /* LycéeList.swift in Sources */,
+				310997A62B126E400030F72A /* LycéeDétail.swift in Sources */,
+				310997A42B126E390030F72A /* LycéeRow.swift in Sources */,
+				310997962B126DD30030F72A /* ContentView.swift in Sources */,
+				310997AD2B126E680030F72A /* ModelData.swift in Sources */,
+				310997942B126DD30030F72A /* SchoolRateApp.swift in Sources */,
+				310997A82B126E440030F72A /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3109979C2B126DD40030F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3109979D2B126DD40030F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3109979F2B126DD40030F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolRate/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4VGXZ8SW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SchoolRate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		310997A02B126DD40030F72A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolRate/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4VGXZ8SW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SchoolRate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3109978B2B126DD30030F72A /* Build configuration list for PBXProject "SchoolRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3109979C2B126DD40030F72A /* Debug */,
+				3109979D2B126DD40030F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3109979E2B126DD40030F72A /* Build configuration list for PBXNativeTarget "SchoolRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3109979F2B126DD40030F72A /* Debug */,
+				310997A02B126DD40030F72A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310997882B126DD30030F72A /* Project object */;
+}
