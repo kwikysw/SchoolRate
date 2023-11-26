@@ -27,7 +27,7 @@ struct LycéeRow: View {
                         .font(.system(size: 14, weight: .medium, design: .rounded))
                         .foregroundColor(.secondary)
                         .padding(.leading, 16)
-                        .padding(.top, 12)
+                        .padding(.top, 14)
                     
                     Text(lycée.name)
                         .font(Font.custom("Bodoni 72", size: 24).bold())
@@ -42,9 +42,9 @@ struct LycéeRow: View {
             // MARK: Foreground image
             lycée.image
                 .resizable()
-                .frame(width: 360, height: 120)
+                .frame(width: 350, height: 140)
                 .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 30)))
-                .offset(y: -130) // -105
+                .offset(x: 5, y: -151) // -105
         }
         .frame(width: 360, height: 340)
         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 30)))

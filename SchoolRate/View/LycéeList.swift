@@ -9,15 +9,18 @@ import SwiftUI
 
 struct LycéeList: View {
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack(spacing: -30) {
-                ForEach(lycées) { lycée in
-                    NavigationLink(destination: LycéeDétail(lycée: lycée)) {
-                        LycéeRow(lycée: lycée)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: -125) {
+                    ForEach(lycées) { lycée in
+                        NavigationLink(destination: LycéeDétail(lycée: lycée)) {
+                            LycéeRow(lycée: lycée)
+                        }
                     }
                 }
+                .padding(.horizontal, 8)
             }
-            .padding(.horizontal, 8)
+            .navigationTitle("Lycées")
         }
     }
 }
