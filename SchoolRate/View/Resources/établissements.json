@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Nevers",
+        "category": "Privé",
+        "city": "Montpellier",
+        "state": "Hérault",
+        "id": 1001,
+        "coordonnées": {
+            "longitude": 3.86971,
+            "latitude": 43.62057
+        },
+        "description": "Le Lycée privé Nevers (voie générale et technologique) est un lycée polyvalent privé sous contrat situé à Montpellier et faisant partie de l'académie de Montpellier. Le Lycée privé Nevers (voie générale et technologique) se distingue notamment par l'enseignement des langues suivantes : italien, italien, japonais. Il propose la/les section(s) : Section européenne, Section Cinéma.",
+        "imageName": "montpellierNevers"
+    },
+    {
+        "name": "Jean Monnet",
+        "category": "Public",
+        "city": "Montpellier",
+        "state": "Hérault",
+        "id": 1002,
+        "coordonnées": {
+            "longitude": 3.830936517832957,
+            "latitude": 43.62870859697394
+        },
+        "description": "Le Lycée Jean Monnet est un lycée général public situé à Montpellier et faisant partie de l'académie de Montpellier. Le Lycée Jean Monnet se distingue notamment par l'enseignement des langues suivantes : chinois, italien, russe, arabe littéral. Il propose la/les section(s) : Section européenne, Section Théâtre, Section Cinéma, Section Arts.",
+        "imageName": "montpellierMonnet"
+    },
+    {
+        "name": "Joffre",
+        "category": "Public",
+        "city": "Montpellier",
+        "state": "Hérault",
+        "id": 1003,
+        "coordonnées": {
+            "longitude": 3.884709803165587,
+            "latitude": 43.61207825608604
+        },
+        "description": "Le Lycée Joffre est un lycée général public situé à Montpellier et faisant partie de l'académie de Montpellier. Le Lycée Joffre se distingue notamment par l'enseignement des langues suivantes : russe, italien, russe, arabe littéral, chinois, italien, japonais, russe. Il propose la/les section(s) : Section européenne, Section internationale, Section Théâtre.",
+        "imageName": "montpellierJoffre"
+    },
+    {
+        "name": "Rabelais",
+        "category": "Privé",
+        "city": "Montpellier",
+        "state": "Hérault",
+        "id": 1004,
+        "coordonnées": {
+            "longitude": 3.8833596183293224,
+            "latitude": 43.60248811087468
+        },
+        "description": "Le Lycée privé Rabelais est un lycée général privé sous contrat situé à Montpellier et faisant partie de l'académie de Montpellier. Le Lycée privé Rabelais se distingue notamment par l'enseignement des langues suivantes : italien. Il offre aussi la possibilité de suivre des spécialités peu proposées par d'autres établissements comme les spécialités langues, littératures et cultures étrangères et régionales.",
+        "imageName": "montpellierRabelais"
+    }
+]
